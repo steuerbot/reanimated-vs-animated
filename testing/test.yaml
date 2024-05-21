@@ -1,0 +1,11 @@
+appId: com.rn74
+---
+- launchApp
+- tapOn:
+    id: "toggle-button"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- tapOn:
+    id: "toggle-button"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
